@@ -1,7 +1,14 @@
+@font-face {
+    font-family: "AvengerFont";
+    src: url(./AVENGEANCEHEROICAVENGER.ttf);
+}
+
 body{
+    font-family: "AvengerFont";
     background-image: url(../images/SpaceBackground.jpg);
-    /* background-repeat: no-repeat; */
     background-size: cover;
+    line-height:1.5;
+    letter-spacing: 1.2px;
 }
 
 .GetThisBanner{
@@ -13,7 +20,7 @@ body{
 .GetThisText,
 .YourNumText{
     text-align: center;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .GetThisCard,
