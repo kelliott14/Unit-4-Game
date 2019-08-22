@@ -10,6 +10,30 @@ body{
     
 }
 
-.GetThisText{
-    text-align: right;
+.GetThisText,
+.YourNumText{
+    text-align: center;
+    font-size: 20px;
+}
+
+.GetThisCard,
+.YourNumCard{
+    padding: 20px;
+    background-color: #FFF6F5;
+    color: #1F1362;
+}
+
+.scorecard{
+    background-color: #1F1362;
+    color: #FFF6F5;
+    opacity: 0.8;
+}
+
+.YourNumBanner{
+    padding-top: 10px;
+    padding-right: 0px;
+}
+
+.instructionsCard{
+    opacity: 0.5;
 }
