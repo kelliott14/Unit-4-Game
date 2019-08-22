@@ -11,21 +11,23 @@ body{
     letter-spacing: 1.2px;
 }
 
-.GetThisBanner{
-    padding-top: 20px;
-    padding-left: 0px;
-    
-}
-
 .GetThisText,
 .YourNumText{
-    text-align: center;
-    font-size: 26px;
+    font-size: 30px;
+}
+
+.GetThisText{
+    text-align: right;
+    padding: 20px 5% 20px 0;
+}
+
+.YourNumText{
+    text-align: left;
+    padding: 20px 0 20px 5%;
 }
 
 .GetThisCard,
 .YourNumCard{
-    padding: 30px;
     background-color: #FFF6F5;
     color: #1F1362;
 }
@@ -34,18 +36,18 @@ body{
     background-color: #1F1362;
     color: #FFF6F5;
     opacity: 0.8;
+    font-size: 20px;
 }
 
 .YourNumBanner{
-    padding-top: 10px;
-    padding-right: 0px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .instructionsCard{
     opacity: 0.5;
     padding-left: 50px;
     margin-bottom: 30px;
+    font-size: 20px;
 }
 
 img{
